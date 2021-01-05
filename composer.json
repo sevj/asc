@@ -1,0 +1,20 @@
+{
+    "name": "adimeo/security-checker",
+    "authors": [
+        {
+            "name": "jordan",
+            "email": "jheussler@adimeo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adimeo\\SecurityChecker\\": ""
+        }
+    },
+    "require": {
+        "sensiolabs/security-checker": "^6.0"
+    },
+    "require-dev": {
+        "clue/phar-composer": "^1.2"
+    }
+}
